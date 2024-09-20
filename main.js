@@ -28,6 +28,14 @@ ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOptions,
 });
 
+ScrollReveal().reveal(".header__subheader", {
+  ...scrollRevealOptions,
+});
+
+ScrollReveal().reveal(".section__header", {
+  ...scrollRevealOptions,
+});
+
 ScrollReveal().reveal(".header__btn", {
   ...scrollRevealOptions,
   delay: 500,

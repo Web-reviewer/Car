@@ -262,7 +262,7 @@ nav {
 }
 
 .footer__links a {
-  color: var(--text-light);
+  color: var(--white);
   transition: 0.3s;
 }
 
@@ -298,19 +298,10 @@ nav {
   gap: 10px;
   text-align: start;
 }
-/* @media (width > 0px) {
-  .header__content h1 {
-    text-align: left;
-    font-size: 2rem;
-  }
-  .header__content {
-    width: 100%;
-  }
-} */
 
 .header__subheader {
+  text-transform: uppercase;
   color: var(--white);
-  /* text-align: center; */
 }
 .header__subheader span {
   color: var(--primary-color);
