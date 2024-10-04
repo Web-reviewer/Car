@@ -398,6 +398,7 @@ nav {
   }
 	#text__call {
 		font-size: 20px;
+		padding-bottom: 5px;
 	}
 	.footer__contacts a>p {
 		font-size: 14px;
@@ -418,6 +419,14 @@ nav {
 }
 
 @media (width > 480px) {
+
+
+	.footer__contacts-wrapper {
+		text-align: center;
+		height: 50px;
+		width: 50px;
+	}
+
   .header__content h1 {
     letter-spacing: 0.7rem;
     text-transform: uppercase;
@@ -469,6 +478,7 @@ nav {
 	}
 	#text__call {
 		font-size: 32px;
+		padding-bottom: 10px;
 	}
 	.footer-wrapper {
 		padding-left: 25px;
@@ -493,7 +503,11 @@ nav {
 		font-size: 16px;
 	}
 
-
+	.footer__contacts-wrapper {
+		text-align: center;
+		height: 60px;
+		width: 60px;
+	}
 
   nav {
     padding: 2rem 1rem;
@@ -571,10 +585,9 @@ nav {
 }
 
 @media (width > 1024px) {
-	.footer__contacts-wrapper {
-		text-align: center;
-		height: 60px;
-		width: 60px;
+	
+	.footer__map a > img {
+		height: 100%;
 	}
 
   .price__grid {
