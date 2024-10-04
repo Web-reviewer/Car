@@ -410,6 +410,11 @@ nav {
 	.footer__contacts a {
 		padding-left: 20px;
 	}
+	.footer__contacts-wrapper {
+		text-align: center;
+		height: 30px;
+		width: 30px;
+	}
 }
 
 @media (width > 480px) {
@@ -566,6 +571,12 @@ nav {
 }
 
 @media (width > 1024px) {
+	.footer__contacts-wrapper {
+		text-align: center;
+		height: 60px;
+		width: 60px;
+	}
+
   .price__grid {
     gap: 2rem;
   }
